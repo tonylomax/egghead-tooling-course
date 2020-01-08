@@ -1,3 +1,5 @@
-import getGreeting from "./greet";
-
-console.log(getGreeting("World"));
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./app";
+import "./styles.css";
+ReactDOM.render(<App></App>, document.getElementById("app"));

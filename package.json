@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonylomax/egghead-tooling-course.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/tonylomax/egghead-tooling-course/issues"
+  },
+  "homepage": "https://github.com/tonylomax/egghead-tooling-course#readme"
 }

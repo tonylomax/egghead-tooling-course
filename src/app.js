@@ -1,6 +1,7 @@
 import React from "react";
 import { hot } from "react-hot-loader";
 
+const a = "A";
 class App extends React.Component {
   state = {
     count: 0
@@ -9,6 +10,7 @@ class App extends React.Component {
     return (
       <div>
         <h1> Hello World!</h1>
+
         <h2 className={this.state.count > 10 ? "warning" : null}>
           Count : {this.state.count}
         </h2>
